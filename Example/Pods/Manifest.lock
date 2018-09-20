@@ -1,0 +1,23 @@
+PODS:
+  - TitanFMBase/Category (0.1.0)
+  - TKMainMoudle (0.1.0):
+    - TitanFMBase/Category
+
+DEPENDENCIES:
+  - TKMainMoudle (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TitanFMBase
+
+EXTERNAL SOURCES:
+  TKMainMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TitanFMBase: a4049b2cd12e7f54cc0b58e2d7538431fc6d4c2d
+  TKMainMoudle: ae3820f64fe2f07a8cbe821d9845710ad689cb43
+
+PODFILE CHECKSUM: c7e7e1d5ad3be0347fb0d1796fd5eead7ce88f64
+
+COCOAPODS: 1.5.3

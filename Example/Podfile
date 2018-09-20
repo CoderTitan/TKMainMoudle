@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKMainMoudle_Example' do
+  pod 'TKMainMoudle', :path => '../'
+
+  target 'TKMainMoudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

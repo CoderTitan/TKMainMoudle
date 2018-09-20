@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F7A64F1ED009779849F0AC62146A7E /* Pods-TKMainMoudle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 442209AFE045F1A490AFC51E8CDFE54A /* Pods-TKMainMoudle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B88F9E33FDDC151F5FA4CE7EEE5527 /* TitanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA63A1ED6277E33E596675176B973A51 /* TitanTabBarController.m */; };
+		0612E50CD135318B9BD54420D5046CE5 /* header_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C14A14073901B3E6E049F782CE234E /* header_default@2x.png */; };
+		08228A31CEB3A3547D25C54079DB1143 /* TitanFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */; };
+		149B3CFC4C3CE1333DF5740A413622EC /* TKMainMoudle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A9F15908A0A2A97AC95FF5F31E94E68 /* TKMainMoudle.bundle */; };
+		1E3838225328D5C61133768A420F154B /* NSArray+Partition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */; };
+		1E4C2BAE1359466C679B5FE428B932CF /* TitanFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */; };
+		33DBFFA3DDB3518F31BA869C084F7F82 /* Pods-TKMainMoudle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A38E878663BEF41A1AFCCF7B85CE9B0 /* Pods-TKMainMoudle_Example-dummy.m */; };
+		3675114067D5C753B026CD7742792121 /* TitanMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A50DE7F3C402B11450AA9CAC1F510C /* TitanMiddleView.m */; };
+		4258996002CA13BB277B9F9EE26F248F /* UIView+TKNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */; };
+		47B9B077C8CB3A5A53D90CEEC0CA4059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		4B91D1662BF54FDB4E3AF9F7891FE129 /* TKMainMoudle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD2489193B58D5010B3B186506E3F /* TKMainMoudle-dummy.m */; };
+		4F4AFB757DAE510A9E7B862E1E3693D9 /* Pods-TKMainMoudle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2A27A31CE565D0E7E913165E8D7220 /* Pods-TKMainMoudle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518F56EC84DB49AC3485B88BE504E788 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51EBE111DA02E0A501A99855F37B47C4 /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C0834BE8677F381487ADD51114FABA /* tabbar_np_normal@3x.png */; };
+		537F24BC0DE2F895C59092596BA18BE1 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFBCC25FF61618EDE8FB565D8AF9F85E /* tabbar_np_playshadow@2x.png */; };
+		571438412D03EDDCB6FAC99516314737 /* NSArray+Partition.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5A419666283152B95C4CBBF96786FE /* TitanFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E040298A89E28D751DA13FF217F587C /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3677B8D86D6C26EAB6D498EF8DAC3C30 /* back-icon@2x.png */; };
+		5F0C7C6A63894194BB26632FB5D66223 /* TitanNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F6F517293C08E6AA77365485956F4 /* TitanNavBar.m */; };
+		65511F429FAFB361484127FBE9413EC7 /* zxy_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C71B24108407EE94679298834E1D43 /* zxy_icon@2x.png */; };
+		6742C39028BC4A371A6D6B705B3A7FCF /* TitanTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A828298EC8626E08252DF5AC3457EE4 /* TitanTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6928FA785C4BB245B3F48646CD1B4FC2 /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2324489C9517099E58E20240BF7B9E69 /* zxy_icon@2x.jpg */; };
+		6F7EF37FB4A57B3131016C3DE7731479 /* Pods-TKMainMoudle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E8746C9D7EA37B9881BFC87B036AF /* Pods-TKMainMoudle_Tests-dummy.m */; };
+		7047E953C5F7ACB5265559EF3CDFF9B0 /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 868C3704AE744CFC4AA5886FB16E5802 /* back-icon.png */; };
+		7110373C9D793B6FC28D0B26F9E60E34 /* TitanTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E886AA0E73887003C185DC863074393 /* TitanTabBar.m */; };
+		71DE0DFD1D6084415AC5851D7DB4D973 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BAC165B52CD7CE478AF85E3CA592A1 /* tabbar_np_loop@3x.png */; };
+		71DF36FA2D9554AAA973A09BE058DF75 /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6CF6A0DBAB158C1BDD5D1E5ED340F4 /* tabbar_np_play@3x.png */; };
+		797FD3FB34E7B7ED9B5E641AFEBA4A16 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAC160CC379B39340FE760BE8B74B5F /* tabbar_np_shadow@2x.png */; };
+		801022C6F37DA89A849C6C6362FEBE85 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */; };
+		8243483A33289ACB02C621E436FA835D /* TitanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8372223057CD1945CDDBEC6F1DD62A /* TitanNavigationController.m */; };
+		869A8C0C5B6ECE51F75CC45F157495E6 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12A351D281CF47931E1C0A048CA571F /* tabbar_np_playshadow@3x.png */; };
+		89A20CA93FEAD19B78090CE1973EBF22 /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F2A2E6D3ED55FE807BCB855DFBD5C0 /* tabbar_np_normal@2x.png */; };
+		8D8FE5BF8BCBA5A4BD375752D65916E4 /* NSObject+TKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951EFFAB82D3258284BB370F3DCB0BFA /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E4457A17BED14E7B91A01BA0A8E793 /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A440F1AAB91C402EB8F43B59922FBD /* tabbar_np_play@2x.png */; };
+		A1BB4FA36A7A253194AFA1CC49B3C2AF /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2A6C07B89929A8287009F344A7AFE /* MainModuleAPI.m */; };
+		A212BF0E4D4A379068172CDA35A54E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		A53ADE5E1FEABE3575C1DC372513145E /* NSObject+TKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */; };
+		A9C4C894898C82073FEA8A5AE135237C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		AA728F915856AA08862E5171DDB515C5 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C25B351F2DBED304045F75B07FDE422 /* tabbar_bg@2x.png */; };
+		AEA4484E0F499EA92F730530A572AA67 /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D1B2C92939A4804DCE0CAA5EF1DFFC8 /* tabbar_np_loop@2x.png */; };
+		AF6BB556662A69722991C5872ED7D789 /* TitanNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 335EDAFA305871BF523DC81D99FE39EE /* TitanNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C281E4F11CA2A6E1FE642B0D40555A /* TitanMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AB36BD4F4388F0C03A5D7164D3E214 /* TitanMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8DA6EE6D442ADD810761033AB487504 /* TitanNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9BB48E878727864514E18D679FD5D2 /* TitanNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFCD2E3FC0A51DFD843514C8BB67B14 /* UIView+TKNib.h in Headers */ = {isa = PBXBuildFile; fileRef = D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C14A4879F6A326A8F594D6AAEB845A64 /* TitanTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1464DA9F4407B1C3C9A8DCA6B24BD550 /* TitanTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C154B7EFF9FB268BFF358548EFC1103F /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D905CA57C88E9506D35A5CB0D8E8BA5B /* tabbar_np_shadow@3x.png */; };
+		C8C24540557C6707E450C4B72851B33D /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF85158892A9919119BBC2A35298CC /* tabbar_np_playnon@2x.png */; };
+		CCE2E977F17606151341E365BE57C408 /* TitanMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 93FFFBEC40587459289445A982918BC5 /* TitanMiddleView.xib */; };
+		D6545CFC6413454D4582A0A1D1268635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		DC7AFB64BDC64352A01D857D5904AF8F /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DBB038A68426A7F28DA7C268ED6D15 /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECB9A189CF30B88ABAF44B9E94813DC /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */; };
+		E5B2328842B30C68D5C788317912F1DE /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED31572E9463D118820556579F5B8243 /* TKMainMoudle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D0B97A3709F580CC149E53CC0D9DC9 /* TKMainMoudle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E8538789C6DFBD9828D147B2780AD6 /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 623BD4E8009F8FCD8B1E3CC4ECC144C5 /* back-icon@3x.png */; };
+		F97192FEA605E0C65B4A027C69FDE7E7 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */; };
+		FDD7A2B47994EAF2F8CF1CFF12329E16 /* tabbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2BD973B3321D6E8C65BB902CA3301E /* tabbar_bg@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D1231AB8D2C29EC36F4B732E8FA52BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B064D41BD31D06521B8718661A594DAB;
+			remoteInfo = TitanFMBase;
+		};
+		31C309D260F773770F745D603A87D7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB762E8F5714AC46825509F4A4135B86;
+			remoteInfo = "Pods-TKMainMoudle_Example";
+		};
+		7D7953ACE492ABB2311E2EE908FBDC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B064D41BD31D06521B8718661A594DAB;
+			remoteInfo = TitanFMBase;
+		};
+		CC2520432627FFDC8B122DE3B9BBA4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8017AA1FBCC870C77BF72275625E781;
+			remoteInfo = TKMainMoudle;
+		};
+		E21FD29FB22AEF481F63F5D34F25FAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2AF39ABAD05A187E0C1B4668B87A6F;
+			remoteInfo = "TKMainMoudle-TKMainMoudle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004F69806625B2D748543C46C0E0EDC1 /* Pods-TKMainMoudle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMainMoudle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		00C14A14073901B3E6E049F782CE234E /* header_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "header_default@2x.png"; path = "TKMainMoudle/Assets/header_default@2x.png"; sourceTree = "<group>"; };
+		02F2A2E6D3ED55FE807BCB855DFBD5C0 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "TitanFMBase/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		0C25B351F2DBED304045F75B07FDE422 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@2x.png"; path = "TKMainMoudle/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TKBundle.m"; path = "TitanFMBase/Classes/Category/NSObject+TKBundle.m"; sourceTree = "<group>"; };
+		1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Partition.m"; path = "TitanFMBase/Classes/Category/NSArray+Partition.m"; sourceTree = "<group>"; };
+		1464DA9F4407B1C3C9A8DCA6B24BD550 /* TitanTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitanTabBar.h; sourceTree = "<group>"; };
+		1A38E878663BEF41A1AFCCF7B85CE9B0 /* Pods-TKMainMoudle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKMainMoudle_Example-dummy.m"; sourceTree = "<group>"; };
+		1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TitanFMBase-dummy.m"; sourceTree = "<group>"; };
+		21DBB038A68426A7F28DA7C268ED6D15 /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
+		2324489C9517099E58E20240BF7B9E69 /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = "zxy_icon@2x.jpg"; path = "TKMainMoudle/Assets/zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image.m"; path = "TitanFMBase/Classes/Category/UIImage+Image.m"; sourceTree = "<group>"; };
+		25D0B97A3709F580CC149E53CC0D9DC9 /* TKMainMoudle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKMainMoudle-umbrella.h"; sourceTree = "<group>"; };
+		2A828298EC8626E08252DF5AC3457EE4 /* TitanTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitanTabBarController.h; sourceTree = "<group>"; };
+		32A440F1AAB91C402EB8F43B59922FBD /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
+		335EDAFA305871BF523DC81D99FE39EE /* TitanNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitanNavigationController.h; sourceTree = "<group>"; };
+		33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKMainMoudle.xcconfig; sourceTree = "<group>"; };
+		3677B8D86D6C26EAB6D498EF8DAC3C30 /* back-icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back-icon@2x.png"; path = "TKMainMoudle/Assets/back-icon@2x.png"; sourceTree = "<group>"; };
+		3FAF85158892A9919119BBC2A35298CC /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
+		4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TitanFMBase.xcconfig; sourceTree = "<group>"; };
+		442209AFE045F1A490AFC51E8CDFE54A /* Pods-TKMainMoudle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKMainMoudle_Example-umbrella.h"; sourceTree = "<group>"; };
+		450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TKNib.m"; path = "TitanFMBase/Classes/Category/UIView+TKNib.m"; sourceTree = "<group>"; };
+		4A2A27A31CE565D0E7E913165E8D7220 /* Pods-TKMainMoudle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKMainMoudle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A9F15908A0A2A97AC95FF5F31E94E68 /* TKMainMoudle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TKMainMoudle.bundle; path = "TKMainMoudle-TKMainMoudle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TitanFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543E8746C9D7EA37B9881BFC87B036AF /* Pods-TKMainMoudle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKMainMoudle_Tests-dummy.m"; sourceTree = "<group>"; };
+		57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "TitanFMBase/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		58A2A6C07B89929A8287009F344A7AFE /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
+		5D1B2C92939A4804DCE0CAA5EF1DFFC8 /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
+		60AB36BD4F4388F0C03A5D7164D3E214 /* TitanMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitanMiddleView.h; sourceTree = "<group>"; };
+		620C4FE48C096C424E20FE4BF2CA6D4A /* Pods-TKMainMoudle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMainMoudle_Tests-resources.sh"; sourceTree = "<group>"; };
+		623BD4E8009F8FCD8B1E3CC4ECC144C5 /* back-icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back-icon@3x.png"; path = "TKMainMoudle/Assets/back-icon@3x.png"; sourceTree = "<group>"; };
+		68BAC165B52CD7CE478AF85E3CA592A1 /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@3x.png"; path = "TKMainMoudle/Assets/tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
+		6AD10BC7D9EFDF3011D1356C0ED214ED /* Pods-TKMainMoudle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKMainMoudle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BDC0CE98A92191E93546FC40B64E6BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D53FEB8D42D3BE73395A045A6DE437E /* TKMainMoudle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKMainMoudle-prefix.pch"; sourceTree = "<group>"; };
+		6E6CF6A0DBAB158C1BDD5D1E5ED340F4 /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@3x.png"; path = "TKMainMoudle/Assets/tabbar_np_play@3x.png"; sourceTree = "<group>"; };
+		7187956847A30F7B4B2E11F3ABD9F4F7 /* Pods-TKMainMoudle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMainMoudle_Example-resources.sh"; sourceTree = "<group>"; };
+		71FFD2489193B58D5010B3B186506E3F /* TKMainMoudle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKMainMoudle-dummy.m"; sourceTree = "<group>"; };
+		732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TitanFMBase/Classes/Category/UIView+Layout.h"; sourceTree = "<group>"; };
+		79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Partition.h"; path = "TitanFMBase/Classes/Category/NSArray+Partition.h"; sourceTree = "<group>"; };
+		7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TKBundle.h"; path = "TitanFMBase/Classes/Category/NSObject+TKBundle.h"; sourceTree = "<group>"; };
+		7F9BB48E878727864514E18D679FD5D2 /* TitanNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TitanNavBar.h; sourceTree = "<group>"; };
+		8119AC5DBFCCADE24C632CD326F1F4ED /* TKMainMoudle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TKMainMoudle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8167188D8CE19B6C23234D07ACDEECD0 /* Pods-TKMainMoudle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMainMoudle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		868C3704AE744CFC4AA5886FB16E5802 /* back-icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back-icon.png"; path = "TKMainMoudle/Assets/back-icon.png"; sourceTree = "<group>"; };
+		89A68044CDA5E04D3A2BC7469495E26D /* TKMainMoudle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKMainMoudle.framework; path = TKMainMoudle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image.h"; path = "TitanFMBase/Classes/Category/UIImage+Image.h"; sourceTree = "<group>"; };
+		903E73B146CF026DE30DB69D208A4165 /* Pods-TKMainMoudle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMainMoudle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FFFBEC40587459289445A982918BC5 /* TitanMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TitanMiddleView.xib; sourceTree = "<group>"; };
+		95C0834BE8677F381487ADD51114FABA /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@3x.png"; path = "TKMainMoudle/Assets/tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
+		9E886AA0E73887003C185DC863074393 /* TitanTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitanTabBar.m; sourceTree = "<group>"; };
+		AA63A1ED6277E33E596675176B973A51 /* TitanTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitanTabBarController.m; sourceTree = "<group>"; };
+		AD8372223057CD1945CDDBEC6F1DD62A /* TitanNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitanNavigationController.m; sourceTree = "<group>"; };
+		AF4FD2A5693CB3ECA326EB0DB33D6E31 /* TitanFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TitanFMBase-prefix.pch"; sourceTree = "<group>"; };
+		AFEA598403D1E0A1E0360679BCBF2CBA /* Pods_TKMainMoudle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKMainMoudle_Example.framework; path = "Pods-TKMainMoudle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A351D281CF47931E1C0A048CA571F /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@3x.png"; path = "TKMainMoudle/Assets/tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
+		B3C0F0594DF1BD6EC71155C49DEA9CF7 /* Pods-TKMainMoudle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMainMoudle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3C71B24108407EE94679298834E1D43 /* zxy_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zxy_icon@2x.png"; path = "TKMainMoudle/Assets/zxy_icon@2x.png"; sourceTree = "<group>"; };
+		BA79F0B45A765AF15500E49FFE005216 /* ResourceBundle-TKMainMoudle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TKMainMoudle-Info.plist"; sourceTree = "<group>"; };
+		BE9F6F517293C08E6AA77365485956F4 /* TitanNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitanNavBar.m; sourceTree = "<group>"; };
+		C00495F485A9F58B270D1E19E3438B2A /* Pods_TKMainMoudle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKMainMoudle_Tests.framework; path = "Pods-TKMainMoudle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07BC939E7CFF4AA22CFC49750F4766C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EC8292E5A8CCCD1C16BBB820949C39 /* Pods-TKMainMoudle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKMainMoudle_Tests.modulemap"; sourceTree = "<group>"; };
+		C70373E8A5512EC634098A401BB643E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC4BD4A6F1E1A637B8C7EA3E99FECA6 /* Pods-TKMainMoudle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMainMoudle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC2BD973B3321D6E8C65BB902CA3301E /* tabbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@3x.png"; path = "TKMainMoudle/Assets/tabbar_bg@3x.png"; sourceTree = "<group>"; };
+		D0DFD78A0E33729BF02FD9EF009042B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19B017C915412F4F05F8FA440B15FD8 /* Pods-TKMainMoudle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKMainMoudle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4A50DE7F3C402B11450AA9CAC1F510C /* TitanMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TitanMiddleView.m; sourceTree = "<group>"; };
+		D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TKNib.h"; path = "TitanFMBase/Classes/Category/UIView+TKNib.h"; sourceTree = "<group>"; };
+		D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TitanFMBase/Classes/Category/UIView+Layout.m"; sourceTree = "<group>"; };
+		D8E6F88FEB98E45AFB0E318CEBD73F4A /* TitanFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TitanFMBase.framework; path = TitanFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D905CA57C88E9506D35A5CB0D8E8BA5B /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@3x.png"; path = "TKMainMoudle/Assets/tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
+		DCAC160CC379B39340FE760BE8B74B5F /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
+		DF7D473FA5D699EC19E717029E61AFD0 /* Pods-TKMainMoudle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKMainMoudle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E18612665E4AA5A22EEBC2EEE30B5669 /* Pods-TKMainMoudle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKMainMoudle_Example.modulemap"; sourceTree = "<group>"; };
+		E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E962010189777CF85C0D2BAD255B1C79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECDAFA7A594EEEAA1E041CF73E370ACB /* Pods-TKMainMoudle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKMainMoudle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EFBCC25FF61618EDE8FB565D8AF9F85E /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@2x.png"; path = "TKMainMoudle/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		F543A3290394129C18ACC635EED6A008 /* TKMainMoudle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKMainMoudle.modulemap; sourceTree = "<group>"; };
+		F88B9224A49FF3349E5BE74EFBC49EDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA687FC3E7CC17FAC89249FD2612BB10 /* Pods-TKMainMoudle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKMainMoudle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TitanFMBase-umbrella.h"; sourceTree = "<group>"; };
+		FD702D3EC3A82811F76490852266F2C8 /* TitanFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TitanFMBase.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0329F099BC86D1D4ABC29FBFC6142D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542FCD063CA5B16BE71207E846ADBDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C4C894898C82073FEA8A5AE135237C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA34B666804A2EB331C37A143FE59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6545CFC6413454D4582A0A1D1268635 /* Foundation.framework in Frameworks */,
+				08228A31CEB3A3547D25C54079DB1143 /* TitanFMBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B62418C4B23F98680FCDE89722921D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B9B077C8CB3A5A53D90CEEC0CA4059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3603B5280916C743A5F65A5EAC347CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A212BF0E4D4A379068172CDA35A54E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04159C95F37EFA13E3CC44B602EEF5F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DA18F564459AB32241CE552F4C371 /* Pods-TKMainMoudle_Example */,
+				A9084DDD4244ED708D7EE75E23F7CC53 /* Pods-TKMainMoudle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0C57EED0EF2C82B7DC1AF2A6847D26E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C07BC939E7CFF4AA22CFC49750F4766C /* Info.plist */,
+				FD702D3EC3A82811F76490852266F2C8 /* TitanFMBase.modulemap */,
+				4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */,
+				1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */,
+				AF4FD2A5693CB3ECA326EB0DB33D6E31 /* TitanFMBase-prefix.pch */,
+				FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TitanFMBase";
+			sourceTree = "<group>";
+		};
+		150C8E05AE81C908CF28C602EB8B9A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256B150194EA371EAB2754676023E2BF /* TitanFMBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A6D1A802024A4DD0642445B7E410B38 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */,
+				0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */,
+				79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */,
+				1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */,
+				7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */,
+				103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */,
+				8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */,
+				251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */,
+				732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */,
+				D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */,
+				D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */,
+				450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		23F139C96D774C8F5B0BC9488A572782 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				21DBB038A68426A7F28DA7C268ED6D15 /* MainModuleAPI.h */,
+				58A2A6C07B89929A8287009F344A7AFE /* MainModuleAPI.m */,
+			);
+			name = PublicAPI;
+			path = TKMainMoudle/Classes/PublicAPI;
+			sourceTree = "<group>";
+		};
+		256B150194EA371EAB2754676023E2BF /* TitanFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D1A802024A4DD0642445B7E410B38 /* Category */,
+				0C57EED0EF2C82B7DC1AF2A6847D26E2 /* Support Files */,
+			);
+			name = TitanFMBase;
+			path = TitanFMBase;
+			sourceTree = "<group>";
+		};
+		35F7FE56A9F44CAC20E52AB3B50F8C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA598403D1E0A1E0360679BCBF2CBA /* Pods_TKMainMoudle_Example.framework */,
+				C00495F485A9F58B270D1E19E3438B2A /* Pods_TKMainMoudle_Tests.framework */,
+				D8E6F88FEB98E45AFB0E318CEBD73F4A /* TitanFMBase.framework */,
+				4A9F15908A0A2A97AC95FF5F31E94E68 /* TKMainMoudle.bundle */,
+				89A68044CDA5E04D3A2BC7469495E26D /* TKMainMoudle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42841C45556FFE05712E1627EDDC461B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		439B4606D9F826337B5B94529BB46893 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E962010189777CF85C0D2BAD255B1C79 /* LICENSE */,
+				6BDC0CE98A92191E93546FC40B64E6BF /* README.md */,
+				8119AC5DBFCCADE24C632CD326F1F4ED /* TKMainMoudle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4F6253BF8FB2FB56226CB2538BCDB5CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70373E8A5512EC634098A401BB643E3 /* Info.plist */,
+				BA79F0B45A765AF15500E49FFE005216 /* ResourceBundle-TKMainMoudle-Info.plist */,
+				F543A3290394129C18ACC635EED6A008 /* TKMainMoudle.modulemap */,
+				33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */,
+				71FFD2489193B58D5010B3B186506E3F /* TKMainMoudle-dummy.m */,
+				6D53FEB8D42D3BE73395A045A6DE437E /* TKMainMoudle-prefix.pch */,
+				25D0B97A3709F580CC149E53CC0D9DC9 /* TKMainMoudle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKMainMoudle";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FCD7E9C0BF6C00C41ADB7E9E4657E191 /* Development Pods */,
+				8553A02B866A27E776CF81F3A676EDF5 /* Frameworks */,
+				150C8E05AE81C908CF28C602EB8B9A05 /* Pods */,
+				35F7FE56A9F44CAC20E52AB3B50F8C45 /* Products */,
+				04159C95F37EFA13E3CC44B602EEF5F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8553A02B866A27E776CF81F3A676EDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */,
+				42841C45556FFE05712E1627EDDC461B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		895531FB52ADFDF663FF8DCDB614F153 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				868C3704AE744CFC4AA5886FB16E5802 /* back-icon.png */,
+				3677B8D86D6C26EAB6D498EF8DAC3C30 /* back-icon@2x.png */,
+				623BD4E8009F8FCD8B1E3CC4ECC144C5 /* back-icon@3x.png */,
+				00C14A14073901B3E6E049F782CE234E /* header_default@2x.png */,
+				0C25B351F2DBED304045F75B07FDE422 /* tabbar_bg@2x.png */,
+				CC2BD973B3321D6E8C65BB902CA3301E /* tabbar_bg@3x.png */,
+				5D1B2C92939A4804DCE0CAA5EF1DFFC8 /* tabbar_np_loop@2x.png */,
+				68BAC165B52CD7CE478AF85E3CA592A1 /* tabbar_np_loop@3x.png */,
+				02F2A2E6D3ED55FE807BCB855DFBD5C0 /* tabbar_np_normal@2x.png */,
+				95C0834BE8677F381487ADD51114FABA /* tabbar_np_normal@3x.png */,
+				32A440F1AAB91C402EB8F43B59922FBD /* tabbar_np_play@2x.png */,
+				6E6CF6A0DBAB158C1BDD5D1E5ED340F4 /* tabbar_np_play@3x.png */,
+				3FAF85158892A9919119BBC2A35298CC /* tabbar_np_playnon@2x.png */,
+				EFBCC25FF61618EDE8FB565D8AF9F85E /* tabbar_np_playshadow@2x.png */,
+				B12A351D281CF47931E1C0A048CA571F /* tabbar_np_playshadow@3x.png */,
+				DCAC160CC379B39340FE760BE8B74B5F /* tabbar_np_shadow@2x.png */,
+				D905CA57C88E9506D35A5CB0D8E8BA5B /* tabbar_np_shadow@3x.png */,
+				2324489C9517099E58E20240BF7B9E69 /* zxy_icon@2x.jpg */,
+				B3C71B24108407EE94679298834E1D43 /* zxy_icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A4D4FAC6266C1C498DFAAC1EB0FFE953 /* TKMainMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				439B4606D9F826337B5B94529BB46893 /* Pod */,
+				23F139C96D774C8F5B0BC9488A572782 /* PublicAPI */,
+				895531FB52ADFDF663FF8DCDB614F153 /* Resources */,
+				4F6253BF8FB2FB56226CB2538BCDB5CA /* Support Files */,
+				B4F40C19FE5D90FB484B8EE28CBB4FF8 /* ViewController */,
+				F5C9A76A9877557AB40D9AC6C5721BFE /* Views */,
+			);
+			name = TKMainMoudle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9084DDD4244ED708D7EE75E23F7CC53 /* Pods-TKMainMoudle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F88B9224A49FF3349E5BE74EFBC49EDD /* Info.plist */,
+				C6EC8292E5A8CCCD1C16BBB820949C39 /* Pods-TKMainMoudle_Tests.modulemap */,
+				D19B017C915412F4F05F8FA440B15FD8 /* Pods-TKMainMoudle_Tests-acknowledgements.markdown */,
+				CBC4BD4A6F1E1A637B8C7EA3E99FECA6 /* Pods-TKMainMoudle_Tests-acknowledgements.plist */,
+				543E8746C9D7EA37B9881BFC87B036AF /* Pods-TKMainMoudle_Tests-dummy.m */,
+				903E73B146CF026DE30DB69D208A4165 /* Pods-TKMainMoudle_Tests-frameworks.sh */,
+				620C4FE48C096C424E20FE4BF2CA6D4A /* Pods-TKMainMoudle_Tests-resources.sh */,
+				4A2A27A31CE565D0E7E913165E8D7220 /* Pods-TKMainMoudle_Tests-umbrella.h */,
+				DF7D473FA5D699EC19E717029E61AFD0 /* Pods-TKMainMoudle_Tests.debug.xcconfig */,
+				004F69806625B2D748543C46C0E0EDC1 /* Pods-TKMainMoudle_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKMainMoudle_Tests";
+			path = "Target Support Files/Pods-TKMainMoudle_Tests";
+			sourceTree = "<group>";
+		};
+		AA1DA18F564459AB32241CE552F4C371 /* Pods-TKMainMoudle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0DFD78A0E33729BF02FD9EF009042B3 /* Info.plist */,
+				E18612665E4AA5A22EEBC2EEE30B5669 /* Pods-TKMainMoudle_Example.modulemap */,
+				6AD10BC7D9EFDF3011D1356C0ED214ED /* Pods-TKMainMoudle_Example-acknowledgements.markdown */,
+				FA687FC3E7CC17FAC89249FD2612BB10 /* Pods-TKMainMoudle_Example-acknowledgements.plist */,
+				1A38E878663BEF41A1AFCCF7B85CE9B0 /* Pods-TKMainMoudle_Example-dummy.m */,
+				ECDAFA7A594EEEAA1E041CF73E370ACB /* Pods-TKMainMoudle_Example-frameworks.sh */,
+				7187956847A30F7B4B2E11F3ABD9F4F7 /* Pods-TKMainMoudle_Example-resources.sh */,
+				442209AFE045F1A490AFC51E8CDFE54A /* Pods-TKMainMoudle_Example-umbrella.h */,
+				8167188D8CE19B6C23234D07ACDEECD0 /* Pods-TKMainMoudle_Example.debug.xcconfig */,
+				B3C0F0594DF1BD6EC71155C49DEA9CF7 /* Pods-TKMainMoudle_Example.release.xcconfig */,
+			);
+			name = "Pods-TKMainMoudle_Example";
+			path = "Target Support Files/Pods-TKMainMoudle_Example";
+			sourceTree = "<group>";
+		};
+		B4F40C19FE5D90FB484B8EE28CBB4FF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				335EDAFA305871BF523DC81D99FE39EE /* TitanNavigationController.h */,
+				AD8372223057CD1945CDDBEC6F1DD62A /* TitanNavigationController.m */,
+				2A828298EC8626E08252DF5AC3457EE4 /* TitanTabBarController.h */,
+				AA63A1ED6277E33E596675176B973A51 /* TitanTabBarController.m */,
+			);
+			name = ViewController;
+			path = TKMainMoudle/Classes/ViewController;
+			sourceTree = "<group>";
+		};
+		F5C9A76A9877557AB40D9AC6C5721BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60AB36BD4F4388F0C03A5D7164D3E214 /* TitanMiddleView.h */,
+				D4A50DE7F3C402B11450AA9CAC1F510C /* TitanMiddleView.m */,
+				93FFFBEC40587459289445A982918BC5 /* TitanMiddleView.xib */,
+				7F9BB48E878727864514E18D679FD5D2 /* TitanNavBar.h */,
+				BE9F6F517293C08E6AA77365485956F4 /* TitanNavBar.m */,
+				1464DA9F4407B1C3C9A8DCA6B24BD550 /* TitanTabBar.h */,
+				9E886AA0E73887003C185DC863074393 /* TitanTabBar.m */,
+			);
+			name = Views;
+			path = TKMainMoudle/Classes/Views;
+			sourceTree = "<group>";
+		};
+		FCD7E9C0BF6C00C41ADB7E9E4657E191 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4FAC6266C1C498DFAAC1EB0FFE953 /* TKMainMoudle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		693CBD952AAF7F3C55FA30529223F30C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7AFB64BDC64352A01D857D5904AF8F /* MainModuleAPI.h in Headers */,
+				B3C281E4F11CA2A6E1FE642B0D40555A /* TitanMiddleView.h in Headers */,
+				B8DA6EE6D442ADD810761033AB487504 /* TitanNavBar.h in Headers */,
+				AF6BB556662A69722991C5872ED7D789 /* TitanNavigationController.h in Headers */,
+				C14A4879F6A326A8F594D6AAEB845A64 /* TitanTabBar.h in Headers */,
+				6742C39028BC4A371A6D6B705B3A7FCF /* TitanTabBarController.h in Headers */,
+				ED31572E9463D118820556579F5B8243 /* TKMainMoudle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E7602F2CF41F554A1A8D159BA82E71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518F56EC84DB49AC3485B88BE504E788 /* CALayer+PauseAimate.h in Headers */,
+				571438412D03EDDCB6FAC99516314737 /* NSArray+Partition.h in Headers */,
+				8D8FE5BF8BCBA5A4BD375752D65916E4 /* NSObject+TKBundle.h in Headers */,
+				5D5A419666283152B95C4CBBF96786FE /* TitanFMBase-umbrella.h in Headers */,
+				E5B2328842B30C68D5C788317912F1DE /* UIImage+Image.h in Headers */,
+				951EFFAB82D3258284BB370F3DCB0BFA /* UIView+Layout.h in Headers */,
+				BFFCD2E3FC0A51DFD843514C8BB67B14 /* UIView+TKNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD595FF31C24E983F1D551C101AEE98C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4AFB757DAE510A9E7B862E1E3693D9 /* Pods-TKMainMoudle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F3028E246FC00905E0F294F2C8604A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7A64F1ED009779849F0AC62146A7E /* Pods-TKMainMoudle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F2AF39ABAD05A187E0C1B4668B87A6F /* TKMainMoudle-TKMainMoudle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE14C27450E27A2AABC4A919940F6553 /* Build configuration list for PBXNativeTarget "TKMainMoudle-TKMainMoudle" */;
+			buildPhases = (
+				D725A088BCC811FCB18C3F1426983F59 /* Sources */,
+				0329F099BC86D1D4ABC29FBFC6142D1D /* Frameworks */,
+				CA5AC17DC48813157CF49880B5F67C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TKMainMoudle-TKMainMoudle";
+			productName = "TKMainMoudle-TKMainMoudle";
+			productReference = 4A9F15908A0A2A97AC95FF5F31E94E68 /* TKMainMoudle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B064D41BD31D06521B8718661A594DAB /* TitanFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9E4BDB48698D9F9F74A72CBAB125FA /* Build configuration list for PBXNativeTarget "TitanFMBase" */;
+			buildPhases = (
+				86E7602F2CF41F554A1A8D159BA82E71 /* Headers */,
+				9B6AA36C05199C66FF89ED384B783AB5 /* Sources */,
+				B2B62418C4B23F98680FCDE89722921D /* Frameworks */,
+				BDA76F8013664950CD0B1C52B7CD78EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TitanFMBase;
+			productName = TitanFMBase;
+			productReference = D8E6F88FEB98E45AFB0E318CEBD73F4A /* TitanFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B99B16F5302CA0094E9A36B7158D5EAE /* Pods-TKMainMoudle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A309C908703F9D8D73CBEABFBEF5E0 /* Build configuration list for PBXNativeTarget "Pods-TKMainMoudle_Tests" */;
+			buildPhases = (
+				BD595FF31C24E983F1D551C101AEE98C /* Headers */,
+				7A2FF3847C323854EA24B106BB1A28BA /* Sources */,
+				542FCD063CA5B16BE71207E846ADBDF9 /* Frameworks */,
+				79B355B79A924B797C6C969D87E2491A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810C2152D212AC37FD46E4B24C5EA74C /* PBXTargetDependency */,
+			);
+			name = "Pods-TKMainMoudle_Tests";
+			productName = "Pods-TKMainMoudle_Tests";
+			productReference = C00495F485A9F58B270D1E19E3438B2A /* Pods_TKMainMoudle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB762E8F5714AC46825509F4A4135B86 /* Pods-TKMainMoudle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0813F0FFD5B6E5EFE9B285D98EFD8588 /* Build configuration list for PBXNativeTarget "Pods-TKMainMoudle_Example" */;
+			buildPhases = (
+				F5F3028E246FC00905E0F294F2C8604A /* Headers */,
+				384F6ACF1DAAF5726FEF216DB2D13150 /* Sources */,
+				F3603B5280916C743A5F65A5EAC347CA /* Frameworks */,
+				FBD65196AC1B1515065337F3E2E4F43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4438F03B89DFE1BB520EA3ACD87E1241 /* PBXTargetDependency */,
+				677B29C16C1D4023B8596D349CB7705F /* PBXTargetDependency */,
+			);
+			name = "Pods-TKMainMoudle_Example";
+			productName = "Pods-TKMainMoudle_Example";
+			productReference = AFEA598403D1E0A1E0360679BCBF2CBA /* Pods_TKMainMoudle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8017AA1FBCC870C77BF72275625E781 /* TKMainMoudle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A76ECE2122BFB92E79813AAC16DB82C /* Build configuration list for PBXNativeTarget "TKMainMoudle" */;
+			buildPhases = (
+				693CBD952AAF7F3C55FA30529223F30C /* Headers */,
+				C57B92769D637B13239B4AB62A26855C /* Sources */,
+				5FCA34B666804A2EB331C37A143FE59F /* Frameworks */,
+				8C41BC9ED94226D2BFC84128FC0C07BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A443F8CB0D511E15B06F8CFDA7418C /* PBXTargetDependency */,
+				E4CF0A0546BBF310940604F51E27CCEB /* PBXTargetDependency */,
+			);
+			name = TKMainMoudle;
+			productName = TKMainMoudle;
+			productReference = 89A68044CDA5E04D3A2BC7469495E26D /* TKMainMoudle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 35F7FE56A9F44CAC20E52AB3B50F8C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB762E8F5714AC46825509F4A4135B86 /* Pods-TKMainMoudle_Example */,
+				B99B16F5302CA0094E9A36B7158D5EAE /* Pods-TKMainMoudle_Tests */,
+				B064D41BD31D06521B8718661A594DAB /* TitanFMBase */,
+				F8017AA1FBCC870C77BF72275625E781 /* TKMainMoudle */,
+				3F2AF39ABAD05A187E0C1B4668B87A6F /* TKMainMoudle-TKMainMoudle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79B355B79A924B797C6C969D87E2491A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41BC9ED94226D2BFC84128FC0C07BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149B3CFC4C3CE1333DF5740A413622EC /* TKMainMoudle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA76F8013664950CD0B1C52B7CD78EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5AC17DC48813157CF49880B5F67C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7047E953C5F7ACB5265559EF3CDFF9B0 /* back-icon.png in Resources */,
+				5E040298A89E28D751DA13FF217F587C /* back-icon@2x.png in Resources */,
+				F0E8538789C6DFBD9828D147B2780AD6 /* back-icon@3x.png in Resources */,
+				0612E50CD135318B9BD54420D5046CE5 /* header_default@2x.png in Resources */,
+				AA728F915856AA08862E5171DDB515C5 /* tabbar_bg@2x.png in Resources */,
+				FDD7A2B47994EAF2F8CF1CFF12329E16 /* tabbar_bg@3x.png in Resources */,
+				AEA4484E0F499EA92F730530A572AA67 /* tabbar_np_loop@2x.png in Resources */,
+				71DE0DFD1D6084415AC5851D7DB4D973 /* tabbar_np_loop@3x.png in Resources */,
+				89A20CA93FEAD19B78090CE1973EBF22 /* tabbar_np_normal@2x.png in Resources */,
+				51EBE111DA02E0A501A99855F37B47C4 /* tabbar_np_normal@3x.png in Resources */,
+				99E4457A17BED14E7B91A01BA0A8E793 /* tabbar_np_play@2x.png in Resources */,
+				71DF36FA2D9554AAA973A09BE058DF75 /* tabbar_np_play@3x.png in Resources */,
+				C8C24540557C6707E450C4B72851B33D /* tabbar_np_playnon@2x.png in Resources */,
+				537F24BC0DE2F895C59092596BA18BE1 /* tabbar_np_playshadow@2x.png in Resources */,
+				869A8C0C5B6ECE51F75CC45F157495E6 /* tabbar_np_playshadow@3x.png in Resources */,
+				797FD3FB34E7B7ED9B5E641AFEBA4A16 /* tabbar_np_shadow@2x.png in Resources */,
+				C154B7EFF9FB268BFF358548EFC1103F /* tabbar_np_shadow@3x.png in Resources */,
+				6928FA785C4BB245B3F48646CD1B4FC2 /* zxy_icon@2x.jpg in Resources */,
+				65511F429FAFB361484127FBE9413EC7 /* zxy_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD65196AC1B1515065337F3E2E4F43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		384F6ACF1DAAF5726FEF216DB2D13150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DBFFA3DDB3518F31BA869C084F7F82 /* Pods-TKMainMoudle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2FF3847C323854EA24B106BB1A28BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7EF37FB4A57B3131016C3DE7731479 /* Pods-TKMainMoudle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AA36C05199C66FF89ED384B783AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97192FEA605E0C65B4A027C69FDE7E7 /* CALayer+PauseAimate.m in Sources */,
+				1E3838225328D5C61133768A420F154B /* NSArray+Partition.m in Sources */,
+				A53ADE5E1FEABE3575C1DC372513145E /* NSObject+TKBundle.m in Sources */,
+				1E4C2BAE1359466C679B5FE428B932CF /* TitanFMBase-dummy.m in Sources */,
+				801022C6F37DA89A849C6C6362FEBE85 /* UIImage+Image.m in Sources */,
+				DECB9A189CF30B88ABAF44B9E94813DC /* UIView+Layout.m in Sources */,
+				4258996002CA13BB277B9F9EE26F248F /* UIView+TKNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57B92769D637B13239B4AB62A26855C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BB4FA36A7A253194AFA1CC49B3C2AF /* MainModuleAPI.m in Sources */,
+				3675114067D5C753B026CD7742792121 /* TitanMiddleView.m in Sources */,
+				CCE2E977F17606151341E365BE57C408 /* TitanMiddleView.xib in Sources */,
+				5F0C7C6A63894194BB26632FB5D66223 /* TitanNavBar.m in Sources */,
+				8243483A33289ACB02C621E436FA835D /* TitanNavigationController.m in Sources */,
+				7110373C9D793B6FC28D0B26F9E60E34 /* TitanTabBar.m in Sources */,
+				04B88F9E33FDDC151F5FA4CE7EEE5527 /* TitanTabBarController.m in Sources */,
+				4B91D1662BF54FDB4E3AF9F7891FE129 /* TKMainMoudle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725A088BCC811FCB18C3F1426983F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4438F03B89DFE1BB520EA3ACD87E1241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKMainMoudle;
+			target = F8017AA1FBCC870C77BF72275625E781 /* TKMainMoudle */;
+			targetProxy = CC2520432627FFDC8B122DE3B9BBA4D2 /* PBXContainerItemProxy */;
+		};
+		677B29C16C1D4023B8596D349CB7705F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TitanFMBase;
+			target = B064D41BD31D06521B8718661A594DAB /* TitanFMBase */;
+			targetProxy = 0D1231AB8D2C29EC36F4B732E8FA52BF /* PBXContainerItemProxy */;
+		};
+		74A443F8CB0D511E15B06F8CFDA7418C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TKMainMoudle-TKMainMoudle";
+			target = 3F2AF39ABAD05A187E0C1B4668B87A6F /* TKMainMoudle-TKMainMoudle */;
+			targetProxy = E21FD29FB22AEF481F63F5D34F25FAA4 /* PBXContainerItemProxy */;
+		};
+		810C2152D212AC37FD46E4B24C5EA74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKMainMoudle_Example";
+			target = DB762E8F5714AC46825509F4A4135B86 /* Pods-TKMainMoudle_Example */;
+			targetProxy = 31C309D260F773770F745D603A87D7E6 /* PBXContainerItemProxy */;
+		};
+		E4CF0A0546BBF310940604F51E27CCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TitanFMBase;
+			target = B064D41BD31D06521B8718661A594DAB /* TitanFMBase */;
+			targetProxy = 7D7953ACE492ABB2311E2EE908FBDC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B96606D640BACD057D9C94631215AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TitanFMBase/TitanFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TitanFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TitanFMBase/TitanFMBase.modulemap";
+				PRODUCT_MODULE_NAME = TitanFMBase;
+				PRODUCT_NAME = TitanFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C811E0A136DB35333A454E13835D3B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKMainMoudle";
+				INFOPLIST_FILE = "Target Support Files/TKMainMoudle/ResourceBundle-TKMainMoudle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKMainMoudle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5BFEAEA0318B2CFC784ECAF2F44F3EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKMainMoudle/TKMainMoudle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKMainMoudle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKMainMoudle/TKMainMoudle.modulemap";
+				PRODUCT_MODULE_NAME = TKMainMoudle;
+				PRODUCT_NAME = TKMainMoudle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BCDB416969430DF08668D3E974A1769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004F69806625B2D748543C46C0E0EDC1 /* Pods-TKMainMoudle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMainMoudle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMainMoudle_Tests/Pods-TKMainMoudle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8407ACED4CF3E09C7D7B0BD6C6F66821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7D473FA5D699EC19E717029E61AFD0 /* Pods-TKMainMoudle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMainMoudle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMainMoudle_Tests/Pods-TKMainMoudle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		951E549EED0DC31E34398843A6BB3002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKMainMoudle/TKMainMoudle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKMainMoudle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKMainMoudle/TKMainMoudle.modulemap";
+				PRODUCT_MODULE_NAME = TKMainMoudle;
+				PRODUCT_NAME = TKMainMoudle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E3A3F8503256B0A8B2F65232920F030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BB7F2BE7078BFF961655AF980981BE /* TKMainMoudle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKMainMoudle";
+				INFOPLIST_FILE = "Target Support Files/TKMainMoudle/ResourceBundle-TKMainMoudle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKMainMoudle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA73DDEAA2BA0C054537CCEEE152DEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8167188D8CE19B6C23234D07ACDEECD0 /* Pods-TKMainMoudle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMainMoudle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMainMoudle_Example/Pods-TKMainMoudle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1A71F54C2C4A25E0D315A476C55BE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TitanFMBase/TitanFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TitanFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TitanFMBase/TitanFMBase.modulemap";
+				PRODUCT_MODULE_NAME = TitanFMBase;
+				PRODUCT_NAME = TitanFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7360CDBB86BD63C1983DC2C8BD36A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C0F0594DF1BD6EC71155C49DEA9CF7 /* Pods-TKMainMoudle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKMainMoudle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKMainMoudle_Example/Pods-TKMainMoudle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0813F0FFD5B6E5EFE9B285D98EFD8588 /* Build configuration list for PBXNativeTarget "Pods-TKMainMoudle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73DDEAA2BA0C054537CCEEE152DEDB /* Debug */,
+				E7360CDBB86BD63C1983DC2C8BD36A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A76ECE2122BFB92E79813AAC16DB82C /* Build configuration list for PBXNativeTarget "TKMainMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E549EED0DC31E34398843A6BB3002 /* Debug */,
+				5BFEAEA0318B2CFC784ECAF2F44F3EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A309C908703F9D8D73CBEABFBEF5E0 /* Build configuration list for PBXNativeTarget "Pods-TKMainMoudle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8407ACED4CF3E09C7D7B0BD6C6F66821 /* Debug */,
+				7BCDB416969430DF08668D3E974A1769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE14C27450E27A2AABC4A919940F6553 /* Build configuration list for PBXNativeTarget "TKMainMoudle-TKMainMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C811E0A136DB35333A454E13835D3B6 /* Debug */,
+				9E3A3F8503256B0A8B2F65232920F030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9E4BDB48698D9F9F74A72CBAB125FA /* Build configuration list for PBXNativeTarget "TitanFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B96606D640BACD057D9C94631215AE6 /* Debug */,
+				E1A71F54C2C4A25E0D315A476C55BE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
